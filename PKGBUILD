@@ -10,7 +10,7 @@ license=('MPL2')
 depends=(xulrunner)
 optdepends=('xorg-server-xvfb: run slimerjs without the need of an X-Windows environment')
 source=(http://download.$pkgname.org/v0.9/0.9.1/$pkgname-$pkgver.zip)
-md5sums=('ae8723ba9616bf055328f6e4f495cae2')
+md5sums=('1d3ffdb29b78ff7075744269049597c3')
 
 package() {
   cd "$srcdir/$pkgname-$pkgver"
